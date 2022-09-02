@@ -16,8 +16,7 @@ struct ContentView: View {
                 .padding()
             DatePicker("Please enter a date: ", selection: $wakeUp, in: Date.now... )
                 .padding()
-                .labelsHidden()
-    }
+        }
     }
 }
 
